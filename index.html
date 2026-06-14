@@ -6,23 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-<h1>To-do Application</h1>
+
+    <h1>To-do Application</h1>
 <input type="text" name="" id="todo">
 <button onclick="addTodo()">Add list</button>
+<button onclick="deleteAll()">Delete All</button>
 <ul id="list">
 
 </ul>
-<script>
-var getList=document.getElementById('list')
-var getInp =document.getElementById('todo')
 
-function addTodo(){
 
-getList.innerHTML+=`<li>${getInp.value} </li>`
-getInp.value =" "
 
-}
-</script>
-   
+
+
+    <script src="aap.js"></script>
 </body>
 </html>
